@@ -67,10 +67,15 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-gcp-starter</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gcp-starter-sql-postgresql -->
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-gcp-starter-sql-postgresql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.cloud.sql</groupId>
+            <artifactId>postgres-socket-factory</artifactId>
+            <version>1.0.16</version>
         </dependency>
 
         <dependency>

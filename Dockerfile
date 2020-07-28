@@ -1,7 +1,5 @@
 FROM gcr.io/google-appengine/openjdk
 VOLUME /tmp
-RUN mkdir /build
-RUN wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O /build/cloud_sql_proxy
 RUN chmod +x /build/cloud_sql_proxy
 RUN mkdir /application
 COPY . /application
